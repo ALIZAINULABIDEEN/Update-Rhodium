@@ -1,0 +1,36 @@
+.site-sections {
+    padding-top: 5rem;
+}
+.section-heading {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 10;
+}
+.section-heading h2 {
+    position: relative;
+    font-weight: 200;
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+.section-heading h2 strong {
+    font-weight: 800;
+}
+@media (min-width: 768px){
+.col-md-6 {
+    -webkit-box-flex: 0;
+    /* -ms-flex: 0 0 50%; */
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+.resume-item {
+    padding: 30px;
+    background: #333;
+    /* -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease; */
+    transition: .3s all ease;
+    border: 4px solid transparent;
+    border-radius: 7px;
+}
